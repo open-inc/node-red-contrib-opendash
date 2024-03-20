@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-opendash",
+  "version": "1.0.3",
+  "description": "Node-Red Node to format data into the open.DASH Format",
+  "main": "toJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+      "name": "open.INC",
+      "email": "info@openinc.de"
+  },
+  "keywords": [
+    "open.DASH",
+    "node-red"
+  ],
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "to open.DASH Format": "toJson.js"
+    }
+  }
+}
